@@ -1,0 +1,157 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.input{
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 8%;
+    width: 80%;
+    border: gray;
+}
+
+.register{
+    background-color: #ebebeb;
+}
+
+.label{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 55%;
+    margin-left: 23%;
+    padding-bottom: 30px;
+}
+
+.title{
+    width: 100%;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.lista{
+    list-style-type: none;
+    padding: 0px;
+    margin-top: 0px;
+    margin-right: 60%;
+}
+
+.botones{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.boton-s{
+    background-color: #3483fa;
+    border-color: transparent;
+    color: #fff;
+    border-radius: 8%;
+    height: 40px;
+    width: 137px;
+}
+
+.boton-c{
+    background-color: gray;
+    border-color: transparent;
+    color: #fff;
+    border-radius: 8%;
+    height: 40px;
+    width: 137px;
+}
+
+header{
+    background-color:#EAC926;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+
+}
+.mega-top{
+    display: flex;
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
+
+.top{
+    display: flex;
+}
+
+header .form .submit{
+    color: #666;
+    position: absolute;
+    top: 9px;
+    left: 10pc;
+}
+
+.compracuotas{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.nav-bar{
+    display: flex;
+}
+
+.hello{
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+    margin-left: 11px;
+}
+
+.form{
+    position: relative;
+}
+
+.busqueda{
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 8%;
+    width: 80%;
+    border: gray;
+    width: 12pc;
+}
+
+footer{
+    text-align: center;
+    background-color: white;
+    padding-top: 30px;
+}
+
+#copy{
+    text-align: left;
+    color: gray;
+}
+
+.titulo-footer{
+    margin-block-start: 10px;
+    margin-block-end: 0px;
+}
+
+.parrafo-footer{
+    margin-block-start:0;
+    margin-block-end: 6em;
+}
+
+.botones:hover .boton-s{
+    background-color: royalblue;
+}
+
+section:hover .fa-credit-card{
+    color:#EAC926;
+}
+
+section:hover .fa-gift{
+    color:#EAC926;
+}
+
+section:hover .fa-user-shield{
+    color:#EAC926;
+}
