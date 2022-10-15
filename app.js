@@ -6,7 +6,7 @@ const publicPath = path.resolve(__dirname,'./public');
 app.use(express.static(publicPath));
 
 app.listen(3000, ()=>{
-    console.log('Server corriendo en el puerto 3000');
+    console.log('Server corriendo en el puerto 3030');
 });
 
 app.get('/', (req,res)=>{
